@@ -7,13 +7,13 @@ auto reloader &amp; start script for node js
 
 ### Service
 - Configure your package.json and add this:
-<pre><code>
+<code><pre>
 "scripts": {
       "start": "sh bin/service.sh start",
       "stop": "sh bin/service.sh stop",
       "restart": "sh bin/service.sh restart"
   }
-</code></pre>
+</pre></code>
 - Run the command in your application's root path
 <pre><code>
 npm start
