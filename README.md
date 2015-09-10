@@ -34,11 +34,12 @@ pidPath="$path/bin/project.pid"
 - Configure which files (folders) you want to monitor
 <pre><code>
 fileList=(
-      'lib'
+      'lib/test.js'
       'node_modules'
       'config'
       'models'
       'routes'
+      'views/test.ejs'
       'app.js'
 )
 </code></pre>
