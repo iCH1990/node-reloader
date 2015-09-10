@@ -2,7 +2,7 @@
 auto reloader &amp; start script for node js
 
 ## Usage
-- Merge with your bin folder.
+- Merge with your bin folder
 - Configure your ./bin/www
 
 ### Service
