@@ -30,7 +30,7 @@ pidPath="$path/bin/project.pid"
 </pre></code>
 
 ### Auto Reloader
-- This feature depends on Service.sh
+- This feature depends on inotify (download link: [sourceforge](http://sourceforge.net/projects/inotify-tools/))
 - Configure which files (folders) you want to monitor
 
 <pre><code>
