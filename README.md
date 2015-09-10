@@ -32,7 +32,6 @@ pidPath="$path/bin/project.pid"
 ### Auto Reloader
 - This feature depends on inotify (download link: [sourceforge](http://sourceforge.net/projects/inotify-tools/))
 - Configure which files (folders) you want to monitor
-
 <pre><code>
 fileList=(
       'lib'
@@ -43,3 +42,9 @@ fileList=(
       'app.js'
 )
 </code></pre>
+- Run the command in your application's root path or bin path
+<pre><code>
+sh ./bin/autoReload.sh
+sh autoReload.sh
+</code></pre>
+- Your server will be reloaded automatically when the file changes
