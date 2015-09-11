@@ -3,7 +3,18 @@ auto reloader &amp; start script for node js
 
 ## Usage
 - Merge with your bin folder
-- Configure your ./bin/www
+- Configure your ./bin/www to record pid
+<pre><code>
+function onListening() {
+     var addr = server.address();
+     var bind = typeof addr === 'string'
+         ? 'pipe ' + addr
+         : 'port ' + addr.port;
+     debug('Listening on ' + bind);
+ 
+     <b>console.log('pid:' + process.pid);</b>
+ }
+</code></pre>
 
 ### Service
 - Configure your package.json and add this:
